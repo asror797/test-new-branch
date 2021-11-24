@@ -1,0 +1,53 @@
+.service {
+  width: 100%;
+  padding: 55px 0;
+  background-color: #E9FBF8;
+  .service__itm {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .service__heading {
+      width: 100%;
+      h2 {
+        text-align: center;
+        color: #292525;
+        font-family:'Circular Std';
+        margin-bottom: 15px;
+      }
+      .service-title {
+        font-family: 'Dm Sans';
+        text-align: center;
+      }
+
+    }
+
+    .service__boxes {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding:95px 35px;
+      .box {
+        max-width: 339px;
+        margin: 7px;
+        padding: 55px 13px;
+        background-color: white;
+        border-top: 5px solid #60e1cb;
+        border-radius: 7px;
+        h3 {
+          margin-bottom: 7px;
+          &::before {
+            content: "";
+            display: block;
+            width: 45px;
+            height: 45px;
+            margin-bottom: 13px;
+            background-image: url("./../../img/web-site.png");
+          }
+        }
+      }
+    }
+    
+  }
+}

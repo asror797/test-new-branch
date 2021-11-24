@@ -1,0 +1,37 @@
+.header {
+  width: 100%;
+  padding: 23px 0;
+  .header__itm {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .menu {
+      display: flex;
+      list-style: none;
+      li:not(:last-child){
+        margin-right: 29px;
+        a {
+          color: #60e1cb;
+          font-size: 18px;
+        }
+        .active {
+          color: #292525;
+        }
+      }
+      li {
+        a {
+          text-decoration: none;
+          text-transform: capitalize;
+          font-family: 'Circular Std';
+        }
+        .login {
+          padding: 7px 21px;
+          border-radius: 13px;
+          color: white;
+          background-color: #7BC0E3;
+        }
+      }
+    }
+  }
+}
